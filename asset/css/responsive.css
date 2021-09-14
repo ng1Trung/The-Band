@@ -1,0 +1,110 @@
+/* PC */
+@media (min-width: 64em) {
+    
+}
+
+/* Tablet & Mobile*/
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    
+    .contact-info {
+        line-height: 2;
+    }
+
+    #footer .social-icons {
+        font-size: 38px;
+    }
+
+    #footer .social-icons a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright {
+        font-size: 20px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+
+/* Tablet */
+@media (max-width: 63.9375em) and (min-width: 48em) {
+    
+}
+
+/* Mobile */
+@media (max-width: 47.9375em) {
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    .s-mt-16 {
+        margin-top: 16px !important;
+    }
+    .s-mt-32 {
+        margin-top: 32px !important;
+    }
+    
+    #header {
+        overflow: hidden; /*overflow: nhung thuoc tinh con bi vuot qua/ vuot ra ngoai*/
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav  li a {
+        padding: 1px 24px;
+    }
+    
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #content .member-image {
+        width: 60%;
+    } 
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    .mobile-menu-btn {
+        display: block ;
+    }
+}
